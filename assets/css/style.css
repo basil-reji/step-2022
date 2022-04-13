@@ -784,6 +784,7 @@ h6 {
 }
 
 #speakers .speaker .details {
+  cursor: pointer;
   background: rgba(0, 29, 61, 0.76);
   position: absolute;
   left: 0;
@@ -800,6 +801,10 @@ h6 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
+}
+
+#speakers .speaker .details h3:hover {
+  color: #ffc300;
 }
 
 #speakers .speaker .details p {
