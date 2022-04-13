@@ -606,6 +606,14 @@ h6 {
     position: relative;
     color: #fff;
     padding: 60px 0 40px 0;
+
+    .card{
+        background-color: transparent;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (min-width: 1024px) {
     #about {
@@ -753,6 +761,9 @@ h6 {
     background-color: $color5;
     color: #fff;
     padding: 10px 100px;
+    &:hover{
+        background-color: $color31;
+    }
 }
 @media (max-width: 991px) {
     #schedule .nav-tabs a {
@@ -1119,7 +1130,7 @@ h6 {
     color: #fff;
 }
 #buy-tickets .card .btn:hover {
-    background-color: $color5;
+    background-color: $color32;
 }
 #buy-tickets #buy-ticket-modal input,
 #buy-tickets #buy-ticket-modal select {

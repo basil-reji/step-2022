@@ -701,6 +701,20 @@ h6 {
   padding: 60px 0 40px 0;
 }
 
+#about .card {
+  background-color: transparent;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media (min-width: 1024px) {
   #about {
     background-attachment: fixed;
@@ -876,6 +890,10 @@ h6 {
   background-color: #003f88;
   color: #fff;
   padding: 10px 100px;
+}
+
+#schedule .nav-tabs a:hover {
+  background-color: #ffcd28;
 }
 
 @media (max-width: 991px) {
@@ -1327,7 +1345,7 @@ h6 {
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #003f88;
+  background-color: #ffd54d;
 }
 
 #buy-tickets #buy-ticket-modal input,
